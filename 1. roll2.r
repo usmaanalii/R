@@ -5,3 +5,5 @@ roll2 <- function(bones = 1:6) {
 
 roll()
 
+# First function
+# Sampling with replacement
