@@ -9,4 +9,5 @@ roll <- function() {
 rolls <- replicate(10000, roll())
 qplot(rolls, binwidth = 1)
 
-?matrix
+# using the probability argument
+# creating a histrogram using ggplot
