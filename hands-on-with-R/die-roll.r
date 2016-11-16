@@ -3,7 +3,7 @@ roll2 <- function(bones = 1:6) {
   sum(dice)
 }
 
-roll()
+roll2()
 
 # First function
 # Sampling with replacement
