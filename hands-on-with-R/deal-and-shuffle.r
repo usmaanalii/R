@@ -24,7 +24,3 @@ new_deck <- shuffle(cards)
 
 deal(new_deck) # card B
 
-# dollar sign
-cards$value
-mean(cards$value)
-median(cards$value)
