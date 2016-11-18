@@ -1,3 +1,5 @@
+# uses parent environment to save the deck to the setup functions runtime environment (closure)
+
 setup <- function(deck) {
   DECK <- deck
   
