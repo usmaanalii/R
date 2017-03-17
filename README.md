@@ -1,2 +1,1 @@
-# Learning R
-
+Resources used to learn R
