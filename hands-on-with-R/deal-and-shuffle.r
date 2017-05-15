@@ -23,4 +23,3 @@ deal(cards) # card A
 new_deck <- shuffle(cards)
 
 deal(new_deck) # card B
-

@@ -1,14 +1,14 @@
 # Data exploration
-data <- read.csv('census-income.data.gz')
+data <- read.csv("census-income.data.gz")
 
 # Question 1
 
 # Create SQLite database (Make sure RSQLite is installed)
-db <- dbConnect(SQLite(), dbname = 'census_income.sqlite')
+db <- dbConnect(SQLite(), dbname = "census_income.sqlite")
 
-# Create 'Income' table
+# Create "Income" table
 dbSendQuery(conn = db,
-            'CREATE TABLE Income
+            "CREATE TABLE Income
             (AAGE INT,
              ACLSWKR TEXT,
              ADTIND TEXT,
@@ -50,8 +50,8 @@ dbSendQuery(conn = db,
              VETYN TEXT,
              WKSWORK NUM,
              YEAR TEXT,
-             TRGT TEXT)')
+             TRGT TEXT)")
 
 # Import data frame into database
-dbWriteTable(conn = db, name = 'Income', value = data, row.names = FALSE, append = TRUE)
-
+dbWriteTable(conn = db, name = "Income", value = data,
+             row.names = FALSE, append = TRUE)

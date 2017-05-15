@@ -1,11 +1,6 @@
-# Installing dplyr 
-install.packages('dplyr')
+# Installing dplyr
+install.packages("dplyr")
 library(dplyr)
 
-# Importing data 
-income_data <- read.csv('census-income.data.gz')
-
-
-
-
-
+# Importing data
+income_data <- read.csv("census-income.data.gz")
