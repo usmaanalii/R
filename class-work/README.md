@@ -5,7 +5,7 @@ During the first semester of my [MSc Advanced Computer Science][a31613ec] degree
 This repository represents the coursework that was required to complete the module.
 
 - [Task](#task)
-- [Code + Analysis](#code-+-analysis)
+- [Code + Analysis](#code-analysis)
 
 ### Task
 
