@@ -5,7 +5,7 @@ During the first semester of my [MSc Advanced Computer Science][a31613ec] degree
 This repository represents the coursework that was required to complete the module.
 
 - [Task](#task)
-- [Code + Analysis](#code-analysis)
+- [Code and Analysis](#code-and-analysis)
 
 ### Task
 
@@ -42,7 +42,7 @@ Write queries that extract the appropriate values from corresponding attributes 
   [a31613ec]: https://www.keele.ac.uk/pgtcourses/advancedcomputersciencemsc/ "course"
   [f3e7333e]: https://archive.ics.uci.edu/ml/machine-learning-databases/census-income-mld/census-income.data.gz "dataset"
 
-### Code + Analysis
+### Code and Analysis
 
 1. Create a SQLite database called `census_income` in R, and a tabled named `Income` defined with approriate column names/data types (these were provided).
 
