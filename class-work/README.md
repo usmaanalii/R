@@ -4,6 +4,9 @@ During the first semester of my [MSc Advanced Computer Science][a31613ec] degree
 
 This repository represents the coursework that was required to complete the module.
 
+- [Task](#task)
+- [Code + Analysis](#code-+-analysis)
+
 ### Task
 
 Download the Census Income dataset from [this link][f3e7333e].
@@ -548,7 +551,7 @@ The next task was fairly simple and an extension of a method that had been carri
 
     - Write a SQL query to determine the employment of people of Hispanic origin with BSc, MSc and PHD degrees, showing the type of industry they are employed in, their average hourly wage and average number of weeks worked per year
 
-##### Part 1
+#### Part 1
 
 #### SQLite
 ``` r
@@ -643,7 +646,7 @@ The query extracted the state, and COUNT for each state value in a table and was
 Conducting the same tasks using Dplyr proved to be more laborious than I was expecting. Extracting the maximum wage required the use of summarise() and the dollar sign to extract the necessary column from the resulting data frame. Once the maximum wage value had been obtained, I decided to create a vector, containing the ‘SS_ID’ value of the row that contained this value. Using this SS_ID value, I could then extract the relevant information from each of the tables (job type, industry and state) to conduct further analysis. Much like the SQLite method, the tables were modified using filter(),  to flush out those that didn’t match the required condition.
 
 
-##### Part 2
+#### Part 2
 
 #### SQLite
 ``` r
